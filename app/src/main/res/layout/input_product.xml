@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/alert_type_name"
+            android:id="@+id/textView" />
+
+        <EditText
+            android:id="@+id/edittext"
+            android:textSize="15sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="@string/alert_input_name_hint"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/alert_input_count"
+            android:textColor="#000000"
+            android:id="@+id/textView2" />
+
+        <EditText
+            android:id="@+id/edittext2"
+            android:textSize="15sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/alert_input_count_hint"
+            android:padding="10dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fridge</string>
+    <string name="title_home">Продукты</string>
+    <string name="title_dashboard">Блюда</string>
+    <string name="title_notifications">Покупки</string>
+    <string name = "alert_warning_name_not_input">Вы не ввели название</string>
+    <string name = "alert_add">Добавить</string>
+    <string name = "alert_cancel">Отмена</string>
+    <string name="alert_type_name">Введите название</string>
+    <string name="alert_input_name_hint">Введите название…</string>
+    <string name="alert_input_count">Введите количество</string>
+    <string name="alert_input_count_hint">Введите количество…</string>
+</resources>
